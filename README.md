@@ -25,3 +25,11 @@ python redirecter/auto_responder.py
 - Скрипт запускает автоответчик **во всех сессиях одновременно**.
 - Если вы добавили новый `*.session` файл — он автоматически подхватится через пару секунд.
 
+### Создание новой сессии (через redirecter)
+
+Создать `.session` сразу в `sessions/`:
+
+```bash
+python redirecter/create_session.py --session-name acc1
+```
+
