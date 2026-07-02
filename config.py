@@ -18,7 +18,7 @@ PROXY_FILE = "proxy.txt"
 NO_PROXY = False
 
 # Сообщение, которое будет отправляться каждому входящему ЛС (кроме blacklist).
-AUTO_REPLY_TEXT = "Привет! Я сейчас занят, отвечу позже."
+AUTO_REPLY_TEXT = "Привет! Напиши сюда, отвечаю тут - @arxixx"
 
 # Если True — отвечать реплаем на входящее сообщение.
 REPLY_TO_MESSAGE = True
